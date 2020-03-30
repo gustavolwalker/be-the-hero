@@ -13,6 +13,17 @@ module.exports = {
     useNullAsDefault: true, //utilizado pois o sqlite não suportar inserts com valores default das colunas
   },
 
+  test: {
+    client: 'sqlite3',
+    connection: {
+      filename: './tests/db.sqlite'
+    },
+    migrations: {
+      directory: './src/database/migrations'
+    },
+    useNullAsDefault: true, //utilizado pois o sqlite não suportar inserts com valores default das colunas
+  },
+
   staging: {
     client: 'postgresql',
     connection: {
