@@ -2,7 +2,7 @@
 This is an app development at the OmniStack 11 week, this app using some techenologies like NodeJS, Knex, Celebrate, React, React Router, Axios, React Native and Expo;
 
 ## backend
-The backend app is develpment using NodeJS, Express, Knex, Celebrate and SQLite;
+The backend app is development using NodeJS, Express, Knex, Celebrate and SQLite;
 To run backend using this command: 
 
 ```sh
