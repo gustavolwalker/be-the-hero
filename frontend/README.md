@@ -11,7 +11,7 @@ npm install
 ```
 
 ### Running in dev 
-Execute in develpment mode:
+Execute in development mode:
 
 ```sh
 npm start
